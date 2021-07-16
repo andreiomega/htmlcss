@@ -1,0 +1,84 @@
+#destaque {
+	color: red;
+	font-weight: bold;
+}
+
+.importante {background-color: yellow;}
+.sons { font-style: italic; }
+
+b, em {
+	text-transform: uppercase;
+}
+
+#sumario ul {
+	width: 150px;
+	list-style:none;
+	padding:0;
+}
+
+#sumario ul li {
+	background-color: gray;	
+	margin: 2px 0;
+	display: block;
+	line-height: 30px;
+}
+
+#sumario ul li a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+}
+
+#sumario ul li a:hover {
+	color: black;
+	background-color: #ccc;
+}
+
+.definicao {
+	font-style: italic;
+	color: gray;
+}
+
+.definicao:before {content: '“';}
+.definicao:after {content: '”';}
+
+
+#bloco {
+	width: 300px;
+	background-color: #ccc;
+	padding: 5px 10px;
+}
+
+#bloco ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+}
+
+#bloco ul li a:hover {
+	color: black;
+	background-color: #fff;
+}
+
+.ativo {background-color: darkgray;}
+
+#contato {
+	width: 300px;
+	color: #fff;
+	background-color: #999;
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+
+#contato a {
+	color: white;
+	text-decoration: none;
+}
+
+.telefone {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.email {text-transform: uppercase;}
