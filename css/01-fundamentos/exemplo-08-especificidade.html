@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Curso CSS - Especificidade 1/4</title>
+
+	<style>
+		/*
+		li {color: #0F0;}
+		.carro li {color:#F0F;}
+		.carro li.novo {color:#F00;}
+		#obrigatorio li {color:#F60;}
+		*/
+	</style>
+
+</head>
+<body>
+
+	<p>Carros</p>
+	<ul class="carro">
+		<li class="novo">carro 1 [novo]</li>
+		<li>carro 2</li>
+		<li class="novo">carro 3 [novo]</li>
+		<li>carro 4</li>
+		<li>carro 5</li>
+		<li class="novo">carro 6 [novo]</li>
+		<li>carro 7</li>
+	</ul>
+	
+	<br>
+
+	<p>Acessórios</p>
+	<ul>
+		<li class="novo">acessório 1</li>
+		<li>acessório 2</li>
+		<li>acessório 3</li>
+		<li>acessório 4</li>
+	</ul>
+
+	<br>
+
+	<p>Itens obrigatórios</p>
+	<ul id="obrigatorio">
+		<li>item 1</li>
+		<li>item 2</li>
+		<li style="color:#00F;">item 3 - superobrigatório</li>
+		<li>item 4</li>
+	</ul>
+
+</body>
+</html>
