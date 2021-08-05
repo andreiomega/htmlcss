@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Curso CSS</title>
+	<style>
+
+		#gradiente {
+
+			width: 800px;
+			height: 450px;
+			margin: 0 auto;
+
+			/* cor fallback */
+			background-color: #66cccc; 
+
+			/* imagem fallback */
+			background-image: url("img/fallback.png"); 
+
+			/* Firefox 3.6+ */
+			background-image: -moz-linear-gradient(#366, #6cc);
+
+			/* Safari 4+, Chrome 1+ */
+			background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6cc), to(#366));
+
+			/* Safari 5.1+, Chrome 10+ */
+			background-image: -webkit-linear-gradient(#366, #6cc); 
+
+			/* Opera 11.10+ */
+			background-image: -o-linear-gradient(#366, #6cc);			
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="gradiente"></div>
+
+</body>
+</html>
