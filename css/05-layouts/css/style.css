@@ -1,0 +1,26 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	color: black;
+	width: 768px;
+	margin: 0 auto;
+	line-height: 1.5em;
+}
+
+article {border: 1px solid gray;}
+
+h1 {font-size: 2em;}
+h2, h3 {color: darkgray;}
+
+header {
+	background-color: gray;
+	color: white;
+	padding: 20px;
+	width: 300px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {color: lightgray;}

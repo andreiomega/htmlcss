@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Curso CSS</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/produtividade.css" />
+	<style>
+
+		:root {
+			
+		}
+
+		body {}
+
+		h1 {
+			
+		}
+
+		h2 {
+			
+		}
+
+		b {}
+		li {}
+
+		.container {
+			
+		}		
+
+	</style>
+</head>
+<body>
+
+	<h1>Produtividade</h1>
+
+	<div class="container">
+
+		<h2>Múltiplos arquivos CSS</h2>
+
+		<p>É possível utilizar varios arquivos CSS. Isso ajuda a organizar seus documentos e separar os estilos por afinidades.</p>
+
+		<p>Por exemplo: você pode ter um arquivo chamado <b>normalize.css</b> para normalizar seus elementos em vários navegadores e também ter o arquivo <b>reset.css</b> para limpar todos os estilos do navegador.</p>
+
+		<p>Assim, você pode editar os arquivos separadamente, facilitando seu trabalho.</p>
+
+		<p>Essa página possui vínculo com o arquivo <b>normalize.css</b> e <b>facilitadores.css</b> por meio do link no head deste documento. Por sua vez, o arquivo <b>facilitadores.css</b> possui vínculo com o arquivo <b>reset.css</b> por meio do @import.</p>
+
+		<p>Dessa maneira, as regras serão aplicadas na seguinte ordem:</p>
+		<ol>
+			<li>regras do normalize.css;</li>
+			<li>reset.css - vinculado no arquivo facilitadores.css;</li>
+			<li>regras do facilitadores.css;</li>
+			<li>regras internas, no head do documento.</li>
+		</ol>
+
+		<h2>Variáveis CSS</h2>
+
+		<p>Variáveis CSS são entidades definidas por desenvolvedores, contendo valores específicos para serem reutilizados ao longo do documento.</p>
+
+		<p>Websites complexos tem uma quantidade muito grande de CSS, com uma quantidade de repetição de valores muito frequente. Por exemplo, a mesma cor pode ser usada em centenas de lugares diferentes, requerindo uma pesquisa global e substituição caso esta cor necessite ser trocada</p>
+
+		<p>Variáveis CSS permite um valor ser guardado em um lugar, então ser referenciado em muitos outros lugares. Um benefício adicional é a semântica dos identificadores. Por exemplo <b>--cor-principal-texto</b> é mais facil de ser entendido do que <b>#00ff00</b>, especialmente se esta cor também é usada em outro contexto.</p>
+
+		<p>Variáveis CSS estão sujeitas ao efeito cascata do css e herdam seus valores de seus pais.</p>
+
+		<p>A sintaxe da função <b>var ( )</b> é a seguinte:<br>
+			<b>var(--nome, valor)</b><br>
+		</p>
+
+	</div>
+
+</body>
+</html>

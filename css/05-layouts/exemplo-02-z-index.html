@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Curso CSS</title>
+	<style>
+
+		div {
+			border: thin solid;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			text-align: center;
+			padding-top: 5px;
+			box-sizing: border-box;			
+		}
+
+		.um {
+			background: #eee;
+			margin: 50px;
+			z-index: 0;
+		}
+
+		.dois {
+			background: #eee;
+			margin: 75px;
+			z-index: 10;
+		}
+
+		.tres {
+			background: #eee;
+			margin: 150px;
+			z-index: 5;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="um">
+		<div class="dois">10</div>
+	</div>
+
+	<div class="tres">5</div>	
+
+</body>
+</html>
